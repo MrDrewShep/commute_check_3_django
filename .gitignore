@@ -1,2 +1,9 @@
-sow.txt
-# comment
+sow*
+terraform/.*
+**/*.tfvars
+**/variables.tf
+**/*.tfstate*
+**/rds_import*
+
+# Remove once secrets are in vars
+terraform/*.tf
