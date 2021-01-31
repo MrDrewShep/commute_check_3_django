@@ -1,0 +1,9 @@
+# AWS general config
+region = ""
+
+# EC2
+eip = ""
+ami = ""
+
+# RDS Postgres config
+initial_db_password = ""
