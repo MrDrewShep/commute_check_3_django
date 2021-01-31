@@ -1,9 +1,7 @@
 sow*
-terraform/.*
-**/*.tfvars
-**/variables.tf
-**/*.tfstate*
-**/rds_import*
 
-# Remove once secrets are in vars
-terraform/*.tf
+# Terraform
+terraform/.*
+terraform/tools_for_initial_configuration/
+**/*.tfvars
+**/*.tfstate*
