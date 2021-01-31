@@ -1,1 +1,7 @@
-sow.txt
+sow*
+
+# Terraform
+terraform/.*
+terraform/tools_for_initial_configuration/
+**/*.tfvars
+**/*.tfstate*
