@@ -5,3 +5,4 @@ terraform/.*
 terraform/tools_for_initial_configuration/
 **/*.tfvars
 **/*.tfstate*
+tfvars/
